@@ -1,0 +1,21 @@
+Tutorial AutoHotKey:
+
+Primero intalar https://www.autohotkey.com/
+
+Despues meterte en https://www.autohotkey.com/docs/KeyList.html
+
+Ahi van a estar los posibles comandos, por ejemplo para poner que la "r" va a ser "n", tengo que poner r::n y asi con todo
+
+Para entrar a una app es asi:
+
+AutoHotKey:: 
+Run, RUTA_APP 
+return
+
+Para ponerlo cuando inicia el programa hacemos
+win+r
+
+luego esto:
+shell:startup
+
+Finalmente arrastramos el archivo que nos interesa
